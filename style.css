@@ -1,0 +1,61 @@
+#map {position:absolute; top:70px; bottom:0; width:100%;}
+
+#menubasemap {     position: absolute;
+            top: 73px;
+            right: 60px;
+            background: white;
+            padding: 10px;
+            z-index: 1000;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+
+
+.Mypopup .maplibregl-popup-content {
+    background-color: rgba(0, 0, 0, 0.85); /* Noir avec une légère transparence */
+    color: #f5f5f5; /* Blanc légèrement adouci */
+    font-family: "Inter", sans-serif; /* Police moderne et épurée */
+    font-size: 10px; /* Taille de texte plus lisible */
+    border-radius: 4px; /* Coins arrondis pour un look plus doux */
+    padding: 5px 5px; /* Espacement intérieur plus équilibré */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Ombre subtile pour de la profondeur */
+    backdrop-filter: blur(4px); /* Effet de flou léger pour un style moderne */
+}
+
+.menu {
+            font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+            position: absolute;
+            width: 200px;
+            top: 73px;
+            left: 50px;
+            padding: 10px;
+        }
+
+.menu .menu_overlay {
+            background-color: #fff;
+            box-shadow:0 1px 2px rgba(0, 0, 0, 0.10);
+            border-radius: 3px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+.menu_overlay fieldset {
+            border: none;
+            padding: 0;
+            margin: 0 0 10px;
+        }
+
+.menu_overlay .categoryLabel {
+            display: block;
+            font-weight: bold;
+            margin: 0 0 5px;
+        }
+
+
+.bandeau {
+    background: #0F4C81;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    height : 60px
+}
